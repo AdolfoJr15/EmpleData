@@ -1,5 +1,7 @@
-EmpleData
+EmpleData -
 Registra y Consulta Empleados
+
+para utilizar este proyecto tienes que seguir los siguientes pasos:
 
 1. Clonar el repositorio:
 Abre una terminal o consola (puede ser "CMD" en Windows o "Terminal" en macOS/Linux).
@@ -18,9 +20,10 @@ Si el proyecto tiene dependencias NuGet, Visual Studio 2022 generalmente las res
 puedes hacer clic derecho sobre la solución en el Explorador de soluciones y seleccionar Restaurar NuGet Packages.
 
 4. Configuración appsettings.json:
-configura la cadena de conexión a tu base de datos en el archivo appsettings.json.
+ajusta los valores según sea necesario. Cambia el Server (por ejemplo, de localhost a la dirección IP del servidor),
+el Database (nombre de la base de datos) etc...
 
-5. Ejecutar proyecto:
+6. Ejecutar proyecto:
 Puedes probar tu API usando la herramienta:
 Swagger: Si has habilitado Swagger en tu proyecto, puedes acceder a una interfaz gráfica en el 
 navegador para interactuar con tu API. Visual Studio 2022 configura Swagger automáticamente si creas 
